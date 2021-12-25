@@ -38,6 +38,23 @@ var mySet2 : Set = [3,4,5]
 var mySet3 = mySet1.union(mySet2)
 print(mySet3)
 
+//dictionary
+// key-value pairing
+
+var myFavoriteDirectors = ["Pulp Fiction" : "Tarantino","Luck Stock" :  "Guy Ritchie" , "Rosencrantz and Guildenstern Are Dead" : "Tom Stoppard" ]
+
+myFavoriteDirectors["Pulp Fiction"]
+myFavoriteDirectors["Rosencrantz and Guildenstern Are Dead"] = "Ozan Üstündağ"
+myFavoriteDirectors["Rosencrantz and Guildenstern Are Dead"]
+myFavoriteDirectors["Interstaller"] = "Nolan"
+
+print(myFavoriteDirectors)
 
 
+var myFavoriteNumbers = ["ozan" : 1, "ayşe" : 2]
+myFavoriteNumbers["ozan"]
+
+var myDicInArray = [["ozan" : 1, "Sevtap" : 2],["HacıÖmerTarman" : 4, "Ayrancı" : 5]]
+                                              
+print(myDicInArray[1]["Ayrancı"]!)
 
