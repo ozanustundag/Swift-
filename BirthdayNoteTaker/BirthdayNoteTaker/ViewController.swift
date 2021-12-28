@@ -31,6 +31,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var birthdayLabel: UILabel!
     
+    @IBAction func clearButton(_ sender: Any) {
+        let storedName = UserDefaults.standard.object(forKey: "name")
+        let storedDate = UserDefaults.standard.object(forKey: "birthday")
+        if (storedName as? String) != nil {
+            UserDefaults.standard.removeObject(forKey: "name")
+        }
+        nameLabel.text = "Name:"
+        
+        
+        if (storedDate as? String) != nil {
+            UserDefaults.standard.removeObject(forKey: "birthday")
+        }
+        birthdayLabel.text = "Birthday:"
+        
+        
+    }
     
     @IBAction func saveButton(_ sender: Any) {
         

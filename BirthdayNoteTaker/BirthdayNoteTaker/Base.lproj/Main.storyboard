@@ -47,22 +47,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uE4-IQ-gCJ">
+                                <rect key="frame" x="170" y="206" width="56" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="clear"/>
+                                <connections>
+                                    <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DuO-7S-9nQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ALg-2B-SmC" firstAttribute="leading" secondItem="RGN-pF-Lil" secondAttribute="leading" id="1ll-2C-0Yu"/>
-                            <constraint firstItem="ALg-2B-SmC" firstAttribute="trailing" secondItem="RGN-pF-Lil" secondAttribute="trailing" id="21S-BP-Frt"/>
-                            <constraint firstItem="ekb-65-hJk" firstAttribute="leading" secondItem="hMN-fu-sTO" secondAttribute="leading" id="8G7-NL-9Sd"/>
-                            <constraint firstItem="ALg-2B-SmC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="9jT-fy-bHq"/>
-                            <constraint firstItem="RGN-pF-Lil" firstAttribute="top" secondItem="ALg-2B-SmC" secondAttribute="bottom" constant="20" id="R5o-Ho-Kvs"/>
-                            <constraint firstItem="ekb-65-hJk" firstAttribute="top" secondItem="hpL-tm-0KW" secondAttribute="bottom" constant="41" id="RGK-sh-Z8j"/>
-                            <constraint firstItem="hMN-fu-sTO" firstAttribute="top" secondItem="ekb-65-hJk" secondAttribute="bottom" constant="16" id="YeG-ZF-OlV"/>
-                            <constraint firstItem="ekb-65-hJk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="bsg-k6-xWY"/>
-                            <constraint firstItem="ALg-2B-SmC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="cWY-il-yQy"/>
-                            <constraint firstItem="ekb-65-hJk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gHS-BV-DHb"/>
-                            <constraint firstItem="ekb-65-hJk" firstAttribute="trailing" secondItem="hMN-fu-sTO" secondAttribute="trailing" id="jxd-hJ-xlT"/>
-                            <constraint firstItem="RGN-pF-Lil" firstAttribute="centerX" secondItem="hpL-tm-0KW" secondAttribute="centerX" id="nYY-De-yMS"/>
+                            <constraint firstItem="uE4-IQ-gCJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="2ia-5v-uyI"/>
+                            <constraint firstItem="RGN-pF-Lil" firstAttribute="trailing" secondItem="hpL-tm-0KW" secondAttribute="trailing" id="5Aq-rM-NYJ"/>
+                            <constraint firstItem="ekb-65-hJk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="94t-w2-m3l"/>
+                            <constraint firstItem="hMN-fu-sTO" firstAttribute="top" secondItem="ekb-65-hJk" secondAttribute="bottom" constant="16" id="G1m-VC-jPc"/>
+                            <constraint firstItem="ALg-2B-SmC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="RpW-Wh-xTb"/>
+                            <constraint firstItem="ALg-2B-SmC" firstAttribute="trailing" secondItem="RGN-pF-Lil" secondAttribute="trailing" id="SL8-fJ-1CI"/>
+                            <constraint firstItem="ekb-65-hJk" firstAttribute="leading" secondItem="hMN-fu-sTO" secondAttribute="leading" id="dWg-jZ-a8U"/>
+                            <constraint firstItem="ekb-65-hJk" firstAttribute="top" secondItem="uE4-IQ-gCJ" secondAttribute="bottom" constant="8" id="drZ-GT-kft"/>
+                            <constraint firstItem="ekb-65-hJk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fj5-ef-Jv6"/>
+                            <constraint firstItem="RGN-pF-Lil" firstAttribute="top" secondItem="ALg-2B-SmC" secondAttribute="bottom" constant="20" id="hOx-ga-J3s"/>
+                            <constraint firstItem="uE4-IQ-gCJ" firstAttribute="top" secondItem="hpL-tm-0KW" secondAttribute="bottom" constant="11" id="jDB-1A-g7q"/>
+                            <constraint firstItem="ALg-2B-SmC" firstAttribute="leading" secondItem="RGN-pF-Lil" secondAttribute="leading" id="lIp-Vu-j0N"/>
+                            <constraint firstItem="uE4-IQ-gCJ" firstAttribute="centerX" secondItem="hpL-tm-0KW" secondAttribute="centerX" id="ngp-gY-0GB"/>
+                            <constraint firstItem="RGN-pF-Lil" firstAttribute="leading" secondItem="hpL-tm-0KW" secondAttribute="leading" id="syN-cJ-9Mq"/>
+                            <constraint firstItem="ekb-65-hJk" firstAttribute="trailing" secondItem="hMN-fu-sTO" secondAttribute="trailing" id="wdg-eJ-4g4"/>
                         </constraints>
                     </view>
                     <connections>
